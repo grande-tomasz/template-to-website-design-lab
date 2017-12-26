@@ -19,14 +19,22 @@ h1,
 h2,
 h3 {
   text-transform: uppercase;
+  letter-spacing: .5rem;
 }
 h1 {
   font-size: 54px;
-  letter-spacing: .5rem;
 }
-.container {
-  width: 900px;
-  margin: 0 auto;
-  padding: 30px 150px;
+h2 {
+  font-size: 34px;
+}
+
+header,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper {
   text-align: center;
 }
