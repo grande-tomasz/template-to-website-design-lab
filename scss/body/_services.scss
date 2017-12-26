@@ -1,9 +1,7 @@
+/* SERVICES SECTION */
 .services {
   background-image: url('../img/services.png');
   background-position: center;
   background-size: cover;
   color: $color-primary;
-  .outer-container{
-    @include bordered-container($color-primary);
-  }
 }

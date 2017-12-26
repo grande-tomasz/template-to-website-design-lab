@@ -1,7 +1,5 @@
+/* CONTACT US SECTION */
 .contact {
-  .outer-container{
-    @include bordered-container($color-secondary);
-  }
   button {
     margin-top: 30px;
     border: none;

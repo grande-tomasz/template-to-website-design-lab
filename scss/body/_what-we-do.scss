@@ -1,9 +1,6 @@
+/* WHAT WE DO SECTION */
 .whatWeDo {
-  .outer-container{
-    @include bordered-container($color-secondary);
-
-    p {
-      font-size: 14px;
-    }
+  p {
+    font-size: 14px;
   }
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+/* GENERAL STYLES */
 html {
   box-sizing: border-box;
   font-family: $font-family;
@@ -61,5 +64,17 @@ header,
       line-height: 24px;
       font-weight: lighter;
     }
+  }
+}
+.about,
+.whatWeDo,
+.contact {
+  .outer-container{
+    @include bordered-container($color-secondary);
+  }
+}
+.services {
+  .outer-container{
+    @include bordered-container($color-primary);
   }
 }
