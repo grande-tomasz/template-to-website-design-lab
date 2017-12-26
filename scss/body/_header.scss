@@ -1,0 +1,29 @@
+// HEADER
+header {
+  background-image: url('../img/header.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-transform: uppercase;
+  color: $color-primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .wrapper {
+    padding-top: 150px;
+    text-align: center;
+  }
+  .logo {
+    padding: 50px 0;
+  }
+  h1 {
+    padding: 25px 0;
+  }
+  p {
+    line-height: 32px;
+  }
+  .scroll {
+    padding-top: 250px;
+  }
+}
