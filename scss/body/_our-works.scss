@@ -22,9 +22,17 @@
   .works-4,
   .works-5,
   .works-6 {
+    position: relative;
     height: 240px;
     background-position: center;
     background-size: cover;
+    div {
+      position: absolute;
+      left: 40px;
+      bottom: 40px;      
+      font-size: 34px;
+      letter-spacing: .25rem;
+    }
   }
   .works-1 {
     background-image: url('../img/works-1.png');
