@@ -1,5 +1,9 @@
-.about {
+.whatWeDo {
   .outer-container{
     @include bordered-container($color-secondary);
+
+    p {
+      font-size: 14px;
+    }
   }
 }

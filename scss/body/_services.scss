@@ -2,10 +2,8 @@
   background-image: url('../img/services.png');
   background-position: center;
   background-size: cover;
-  height: 490px;
   color: $color-primary;
-  .container{
-    max-width: 900px;
+  .outer-container{
     @include bordered-container($color-primary);
   }
 }

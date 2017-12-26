@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: $font-family;
+  text-align: center;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -27,6 +28,10 @@ h1 {
 h2 {
   font-size: 34px;
 }
+h3 {
+  font-size: 20px;
+  letter-spacing: .25rem;
+}
 
 header,
 section {
@@ -34,17 +39,24 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 125px;
 }
-.container {
-  text-align: center;
+.outer-container {
+  width: 900px;
   h2 {
     position: relative;
-    padding-bottom: 20px;
-    top: -20px;
+    top: -21px;
   }
-  p {
-    padding: 10px;
-    line-height: 24px;
-    font-weight: lighter;
+  .inner-container {
+    width: 560px;
+    margin: 20px auto 50px;
+    img {
+      margin: 85px 0 30px;
+    }
+    p {
+      margin: 20px 0;
+      line-height: 24px;
+      font-weight: lighter;
+    }
   }
 }
