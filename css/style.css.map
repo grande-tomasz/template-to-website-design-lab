@@ -3,8 +3,9 @@
 	"file": "style.css",
 	"sources": [
 		"../scss/style.scss",
-		"../scss/_variables.scss"
+		"../scss/_variables.scss",
+		"../scss/_general.scss"
 	],
 	"names": [],
-	"mappings": "AACA,wBAAwB;ACDxB,OAAO,CAAC,+DAAI"
+	"mappings": "ACAA,OAAO,CAAC,+DAAI;ACAZ,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,UAAU;EACtB,WAAW,EDAC,MAAM,EAAE,UAAU;CCC/B;;AACD,AAAA,CAAC,EAAE,AAAA,CAAC,AAAA,OAAO,EAAE,AAAA,CAAC,AAAA,MAAM,CAAC;EACnB,UAAU,EAAE,OAAO;CACpB;;AAED,AAAA,IAAI;AACJ,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX"
 }
