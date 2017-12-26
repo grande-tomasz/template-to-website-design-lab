@@ -12,4 +12,16 @@
     text-transform: uppercase;
     letter-spacing: .25rem;
   }
+  /* TABLET & DESKTOP STYLES */
+  @media(min-width: 768px) {
+    button {
+      width: 395px;
+    }
+  }
+  /* MOBILE STYLES */
+  @media(max-width: 767px) {
+    button {
+      width: 75%;
+    }
+  }
 }

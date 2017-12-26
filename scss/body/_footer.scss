@@ -4,8 +4,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  img {
+    margin: 0 15px;
+  }
   p {
-    margin: 0 30px;
+    margin: 0 20px;
     line-height: 36px;
     font-size: 14px;
   }
