@@ -2,8 +2,9 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../scss/style.scss"
+		"../scss/style.scss",
+		"../scss/_variables.scss"
 	],
 	"names": [],
-	"mappings": "AACA,wBAAwB"
+	"mappings": "AACA,wBAAwB;ACDxB,OAAO,CAAC,+DAAI"
 }
